@@ -165,11 +165,13 @@ Where
 
 This application converts name of a person to its protraits.
 
-`./Name2Protraits.out <data_path> <out_protraits>`
+`./Name2Protraits.out <data_path> <name> <out_protraits>`
 
 Where
 
 - `<data_path>` is the path to the face database.
+
+- `<name>` is the target name to look for protraits.
 
 - `<out_protraits>` is the expected path to put the paths to 
   protraits. The output result is in JSON format.
