@@ -158,8 +158,9 @@ int main(int argc, const char *argv[])
           {
             if (!firstFileFlag) ssInfo << ",";
             string protraitImagePath = dir_usrprotraits + "/" + items_usrprotraits[j];
-            ssInfo << "\"" << protraitImagePath << "\"" << endl;
+            ssInfo << "\"" << protraitImagePath << "\"";
             cout << "\t- " << protraitImagePath << endl;
+            firstFileFlag = false;
           }
         }
 
