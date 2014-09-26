@@ -19,11 +19,11 @@
 *~
 
 # Data files
-release/data/
-!release/data/faces/Bill.Gates/
-!release/data/protraits/Bill.Gates/
+/release/data/
+!/release/data/faces/Bill.Gates/
+!/release/data/protraits/Bill.Gates/
 
 # Build files
-build/
-!build/CMakeLists.txt.template
+/build/
+!/build/CMakeLists.txt.template
 
