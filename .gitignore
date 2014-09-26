@@ -12,9 +12,18 @@
 *.la
 *.a
 
+# Compuled Executable files
+*.out
+
 # Temperary files
 *~
 
 # Data files
 release/data/
+!release/data/faces/Bill.Gates/
+!release/data/protraits/Bill.Gates/
+
+# Build files
+build/
+!build/CMakeLists.txt.template
 
