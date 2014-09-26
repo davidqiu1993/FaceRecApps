@@ -19,8 +19,14 @@
 *~
 
 # Data files
-/release/data/
+/release/data/*
+
+!/release/data/faces
+/release/data/faces/*
 !/release/data/faces/Bill.Gates/
+
+!/release/data/protraits
+/release/data/protraits/*
 !/release/data/protraits/Bill.Gates/
 
 # Build files
